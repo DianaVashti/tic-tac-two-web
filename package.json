@@ -4,6 +4,7 @@
   "description": "a variation on tic-tac-toe with simultaneous wagers",
   "main": "index.js",
   "scripts": {
+    "watch": "./node_modules/.bin/webpack --watch",    
     "start": "./node_modules/.bin/webpack -d && nodemon ./bin/www --exec babel-node"
   },
   "repository": {
